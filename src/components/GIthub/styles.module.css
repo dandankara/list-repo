@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem 2rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.listProjects{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solid #000080;
+    border-radius: 8px;
+    margin-top: 1rem;
+}
+
+.cardProjects{
+    margin: 1rem;
+    border: 1px solid #3f3f3f;
+    width: 13rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.linkCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonOrdenation{
+    width: 8rem;
+    padding: 0.5rem;
+    margin: 0 2rem 2rem 0;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.buttonOrdenation:hover{
+    background-color: #dfdfdf;
+}
+
+.buttonOrdenation span{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+}
+
+.inputSearch{
+    width: 15rem;
+    height: 1.8rem;
+
+}
+
+.nameRepo{
+    font-size: 1.5rem;
+    color: #5656db;
+    font-weight: 600;
+}
+
+.languageRepo{
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
