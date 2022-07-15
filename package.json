@@ -2,11 +2,14 @@
   "name": "list_repos_git",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dandankara.github.io/list-repo-git",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "axios": "^0.27.2",
@@ -17,6 +20,7 @@
   },
   "devDependencies": {
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.2"
+    "eslint-config-next": "12.2.2",
+    "gh-pages": "^4.0.0"
   }
 }
